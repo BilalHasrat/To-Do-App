@@ -9,7 +9,6 @@ part of 'notes_model.dart';
 class NotesModelAdapter extends TypeAdapter<NotesModel> {
   @override
   final int typeId = 0;
- var fortesting;
   @override
   NotesModel read(BinaryReader reader) {
     final numOfFields = reader.readByte();
